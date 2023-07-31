@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.loginComponent {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgb(108, 108, 214), rgb(204, 153, 153));
+}
+.loginComponentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.form {
+  background-color: white;
+  display: flex;
+  border-radius: 5%;
+  flex-direction: column;
+  padding: 30px;
+  gap: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(255, 255, 255, 0.3);
+}
+.inputdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 22px;
+  position: relative;
+}
+.iconsList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.loginSpan {
+  font-size: 32px;
+}
+.input {
+  padding: 8px;
+
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  /* Optionally, you can add some space between the text and the border */
+  margin-bottom: 5px;
+}
+.button {
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(82, 82, 155);
+}
+.forgetPasswordSpan {
+  position: absolute;
+  top: 64%;
+  font-size: 14px;
+  cursor: pointer;
+  right: 4%;
+}
+.forgetPasswordSpan:hover {
+  text-decoration: underline;
+}
+.loginUsing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.loginUsing li {
+  display: flex;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 22px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  cursor: pointer;
+  width: 35px;
+}
+.loginUsing li:hover {
+  transform: translate(1.1);
+}
+.facebook,
+.twitter {
+  color: blue;
+}
+.google {
+  color: red;
+}
